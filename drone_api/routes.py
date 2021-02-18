@@ -21,7 +21,6 @@ def signup():
     form = UserLoginForm()
 
     try: 
-
         if request.method == 'POST' and form.validate_on_submit(): 
             email = form.email.data
             password = form.password.data

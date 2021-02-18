@@ -14,6 +14,8 @@ from authlib.integrations.flask_client import OAuth
 #Import for Flask-Marshmallow
 from flask_marshmallow import Marshmallow
 
+from flask_cors import CORS
+
 
 app = Flask(__name__)
 app.config.from_object(Config)
